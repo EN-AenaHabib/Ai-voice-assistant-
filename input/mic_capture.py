@@ -50,4 +50,3 @@ def capture_audio():
         print("\n Listening manually stopped.")
         stop_event.set()
         return ""
-
