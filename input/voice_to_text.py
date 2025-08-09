@@ -32,4 +32,3 @@ def convert_audio_to_text(audio_data):
 def save_text_to_file(text, filename="input_voice.txt"):
     with open(filename, "w") as file:
         file.write(text)
-
